@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="testAnt" default="build" basedir=".">
     <description>This is a simple test project.</description>
+    <mkdir dir="bin"/>
     <target name="checkDependencies"
         description="Check if dependencies are satisfied">
       <property name="src.location" location="src"/>
